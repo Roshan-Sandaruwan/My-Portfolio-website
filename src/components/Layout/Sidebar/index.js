@@ -4,6 +4,7 @@ import LogoS from '../../../assets/images/logo-s.png'
 import LogoSubtitile from '../../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 
 const Sidebar = () => {
@@ -29,6 +30,22 @@ const Sidebar = () => {
       </NavLink>
 
       </nav>
+
+      <ul>
+
+        <li>
+          <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/roshan-sandaruwan/' >
+            <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e'/>
+          </a>
+        </li>
+
+        <li>
+          <a target='_blank' rel='noreferrer' href='https://github.com/Roshan-Sandaruwan' >
+            <FontAwesomeIcon icon={faGithub} color='#4d4d4e'/>
+          </a>
+        </li>
+
+      </ul>
 
 
 
