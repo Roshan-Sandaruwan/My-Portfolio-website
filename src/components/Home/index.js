@@ -1,12 +1,21 @@
 import React from 'react'
-import LogoR from '../../assets/images/logo-R.png'
+import LogoTitle from '../../assets/images/logo-R.png'
+import { Link } from 'react-router-dom'
+import './index.scss';
 
 const Home = () => {
   return (
     <div className='container home-page'>
       <div className='text-zone'>
-        <h1>Hi, <br/> I'm </h1>
-        <img src={LogoR} alt='developer' />
+        <h1>Hi, <br/> I'm
+        <img src={LogoTitle} alt='developer' />
+        oshan
+        <br/>
+        Web Developer
+        </h1>
+
+        <h2>Frontend Developer / Content Creator </h2>
+        <Link to= "/contact" className='flat-button' >CONTACT ME</Link>
       </div>
     </div>
   )
