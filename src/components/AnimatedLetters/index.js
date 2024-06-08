@@ -1,6 +1,13 @@
 import './index.scss'
 
 const AnimatedLetters = ({letterClass, strArray, idx}) =>{
+
+  // const modiFdiedStrArray = [...strArray];
+
+  // if (modiFdiedStrArray.length>= 25){
+  //   modiFdiedStrArray.splice(25,0,' ');
+  // }
+
   return (
     <span>
       {

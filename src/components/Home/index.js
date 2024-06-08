@@ -8,22 +8,9 @@ import Logo from './Logo'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const nameArray = ['o', 's', 'h', 'a', 'n']
-  const jobArray = [
-    'W',
-    'e',
-    'b',
-    ' ',
-    'D',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
-    'r',
-    '.',
-  ]
+  const jobArray = ['W','e','b ',' -','D','e','v','e','l','o','p','e','r']
+
+  
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {
