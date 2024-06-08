@@ -31,7 +31,7 @@ const About = () => {
 
         </h1>
 
-        <p> Hello, I'm Roshan! As an aspiring software engineer, I'm currently pursuing my undergraduate degree in Software Engineering. I have a deep passion for technology and a relentless curiosity that drives me to explore the ever-evolving world of software development.</p>
+        <p> Hello, I'm Roshan! I am a software engineering undergraduate student at the Open University of Sri Lanka🎓. I specialize in Designing and Developing Websites 💻 . My deep passion for technology and relentless curiosity drive me to explore the ever-evolving world of software development continually.</p>
 
         <p>
         I'm actively seeking internship opportunities to apply my knowledge and gain practical experience in the software industry. If you're looking for a motivated and dedicated software engineering student to join your team or collaborate on a project, please feel free to reach out to me. I'm always open to new challenges and opportunities.
